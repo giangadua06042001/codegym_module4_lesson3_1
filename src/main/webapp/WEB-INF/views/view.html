@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Views Product</h1>
+<a th:href="@{/product}">Back to list</a>
+<div>
+    <div>
+        <label>name</label>
+        <label th:text="${product.nameProduct}">:</label>
+    </div>
+   <div>
+        <label>price</label>
+        <label th:text="${product.price}">:</label>
+    </div>
+   <div>
+        <label>describe</label>
+        <label th:text="${product.describe}">:</label>
+    </div>
+   <div>
+        <label>weight</label>
+        <label th:text="${product.weight}">:</label>
+    </div>
+
+</div>
+
+</body>
+</html>
